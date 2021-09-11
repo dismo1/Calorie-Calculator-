@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css"/>
+</head>
+
+<body>
+  
+<div class="container">
+  <h1 id="error"></h1>
+ <div class="info">
+   
+   <div>
+     <label for="name">الاسم</label>
+     <input type="text" name="" id="name" value="" />
+   </div>
+   <div>
+   <label for="weight">الوزن (بالكيلو غرام)</label>
+  <input type="number" name="" id="weight"/>
+  </div>
+  <div>
+  <label for="weight">الطول (بالسانتي متر)</label>
+  <input type="number" name="" id="height" value="" />
+  </div>
+  <div>
+  <label for="weight">العمر (بالسنوات)</label>
+  <input type="number" name="" id="age"  value="" />
+  </div>
+ </div>
+ 
+ <div class="gend">
+   
+     <h4>اختر جنسك لحساب السعرات بصورة صحيحة</h4>
+   <div>
+    <input type="radio" name="gend" id="male"/>
+   <label for="male" class=""><i class="fas fa-male" id="testt"></i></label>
+   </div>
+   <div>
+    <input type="radio" name="gend" id="female" value="" />
+  <label for="female"><i class="fas fa-female"></i></label>
+  </div>
+ <div class="exe">
+  <h4>كم عدد الرياضة التي تقوم فيها في الاسبوع ؟</h4>
+  <select name="" id="sport">
+    <option>خامل (لا اقوم بأي رياضة)</option>
+    <option>ضعيف (اقوم بعمل الرياضة من 1-3 في الاسبوع)</option>
+    <option>متوسط (اقوم ب 3-5 مرات في الاسبوع</option>
+    <option>متمرس(امارس الرياضة يومياً)</option>
+  </select>
+  
+  <button type="button" onclick="getInputValue();" class="sub">حساب سعراتي الحرارية</button>
+    
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
